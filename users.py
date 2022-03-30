@@ -1,10 +1,3 @@
-from auxs import n_retweets
-
-
-# A function that returns the number of user tweets from a list
-def n_tweets(e):
-    return e[1]
-
 
 def count_user(tweet, users):
     new_user = tweet["user"]["username"]
@@ -16,10 +9,3 @@ def count_user(tweet, users):
     else:
         users[new_user] = 1
     return users
-
-
-def top_ten(users):
-    lista = list(users.items())
-    lista.sort(reverse=True, key=n_tweets)
-    top_10 = lista[0:10]
-    return top_10
