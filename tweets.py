@@ -1,8 +1,4 @@
-# A function that returns the number of retweets
-
-
-def n_retweets(e):
-    return int(e["retweetCount"])
+from auxs import n_retweets
 
 
 def top_10_tweets(tweet, top_ten):
