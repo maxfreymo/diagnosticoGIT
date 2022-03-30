@@ -1,3 +1,6 @@
 
 # Leer JSON files
 https://www.geeksforgeeks.org/read-json-file-using-python/
+
+# Regex
+https://stackoverflow.com/questions/16440267/how-to-find-a-word-that-starts-with-a-specific-character
